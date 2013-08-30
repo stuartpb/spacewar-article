@@ -1,0 +1,1585 @@
+<html>
+
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+	<title>
+SPACEWAR - by Stewart Brand - Fanatic Life and Symbolic Death Among the Computer Bums.
+</title>
+
+<!--
+	The background shade is to be brittle-looking, brown-yellow, old-newspaper color.
+-->
+	<body bgcolor="#f0eecc">
+		<div align="center">
+			<!--
+	PAGE 50 ROLLING STONE / DECEMBER 7, 1972
+	========================================
+-->
+			<iframe src="http://rcm.amazon.com/e/cm?t=sternjuststern&o=1&p=13&l=st1&mode=books&search=classic%20video%20games&fc1=&=1&lc1=&lt1=&f=ifr&bg1=&f=ifr" marginwidth="0" marginheight="0" width="468" height="60" border="0" frameborder="0" style="border:none;" scrolling="no"></iframe>
+		</div>
+		<center>
+<h3>
+&middot
+&nbsp
+ROLLING STONE
+&nbsp
+&middot
+&nbsp
+7 DECEMBER 1972
+&nbsp
+&middot
+</h3>
+</center>
+		<hr>
+
+<center>
+<img src="banner1.jpg" alt="S P A C E W A R">
+<h1>
+S P A C E W A R
+</h1>
+
+Fanatic Life and Symbolic Death Among the Computer Bums
+<p>
+by <a href="http://en.wikipedia.org/wiki/Stewart_Brand">Stewart Brand</a>
+<p>
+
+<i>
+Stewart Brand, 33, is a graduate of Stanford (biology).<br>
+From 1968 to 1971 he edited the <a href="http://en.wikipedia.org/wiki/Whole_Earth_Catalog">Whole Earth Catalog</a>. </i>
+
+</center>
+
+<p>
+
+<blockquote>
+The first &ldquo;Intergalactic spacewar olympics&rdquo; will be held here,
+Wednesday 19 October, 2000 hours.
+First prize will be a year&rsquo;s subscription to &ldquo;Rolling Stone&rdquo;.
+The gala event will be reported by <em>Stone</em> Sports reporter
+Stewart Brand & photographed by Annie Liebowitz.
+Free Beer!
+</blockquote>
+
+<hr>
+
+<p>
+Ready or not, computers are coming to the people. 
+
+<p>
+That&rsquo;s good news, maybe the best since psychedelics.
+It&rsquo;s way off the track of the
+&ldquo;Computers - Threat or menace?&rdquo; school of liberal
+criticism but surprisingly in line with
+the romantic fantasies of the forefathers
+of the science such as
+Norbert Wiener, Warren McCulloch,
+J.C.R. Licklider, John von Neumann and Vannevar Bush.
+
+<p>
+The trend owes its health to an odd array of influences:
+The youthful fervor and firm dis-Establishmentarianism
+of the freaks who design computer science;
+an astonishingly enlightened research program from the very top of the
+Defense Department; an unexpected market-Banking movement by the
+manufacturers of small calculating machines, and an irrepressible
+midnight phenomenon known as Spacewar.
+
+<p>
+Reliably, at any nighttime
+moment (i.e. non-business hours) in North America hundreds of computer
+technicians are effectively out of their bodies, locked in
+life-or-death space combat computer-projected onto cathode ray tube
+display screens, for hours at a time, ruining their eyes, numbing
+their fingers in frenzied mashing of control buttons, joyously slaying
+their friend and wasting their employers&rsquo; valuable computer
+time. Something basic is going on. 
+
+<p>
+Rudimentary Spacewar consists of
+two humans, two sets of control buttons or joysticks, one TV-like
+display and one computer. Two spaceships are displayed in motion on
+the screen, controllable for thrust, yaw, pitch and the firing of
+torpedoes. Whenever a spaceship and torpedo meet, they disappear in
+an attractive explosion. That's the original version invented in 1962
+at MIT by Steve Russell. (More on him in a moment.)
+
+<p>
+October, 1972, 8 PM,
+at <a href="http://ai.stanford.edu/">Stanford&rsquo;s Artificial Intelligence (AI) Laboratory</a>, moonlit and
+remote in the foothills above Palo Alto, California.
+Two dozen of us are jammed in a semi-dark console room
+just off the main hall containing AI&rsquo;s <a href="http://en.wikipedia.org/wiki/PDP-10">PDP-10</a> computer.
+AI&rsquo;s Head System Programmer and most avid Spacewar nut,
+Ralph Gorin, faces a display screen which says only:
+
+<p>
+<b>THIS CONSOLE AVAILABLE.</b>
+<br>
+He logs in on the keyboard with his initials:
+Click clickclickclick click.
+<br>
+
+<b>
+L1,REG
+<br>
+CSD FALL PICNIC. SATURDAY 11 AM IN FLOOD PARK . . .
+<br>
+</b>
+
+He interrupts further announcements, including one
+about the &ldquo;First Intergalactic Spacewar Olympics&rdquo; at 8 PM, with:
+
+Click (&ldquo;run&rdquo;)
+clickclickclick
+(&ldquo;Space War Ralph&rdquo;) click (&ldquo;do it&rdquo;)
+
+<b>
+<pre>
+R SWR.
+
+WELCOME TO SPACEWAR.
+HOW MANY SHIPS? MAXIMUM IS 5.
+</pre>
+</b>
+<!-- 2nd column -->
+
+Click: 5 (Five players. This is for the first familiarization
+battles in the Spacewar Olympics,
+initiated by me and sponsored (beer & prizes) by Rolling Stone.
+Friends, I won't be able to explain every computer-technical
+term that comes by. Fortunately you don't need
+them to get the gist of what&rsquo;s happening.) 
+
+<type>
+<pre>
+<b>
+KEYBOARD BUTTONS? (ELSE REGULAR). TYPE Y OR N.
+</b>
+&ldquo;Yes&rdquo; Click Y
+
+<b>
+THE STANDARD GAME IS:
+
+1 CONSOLE, 2 TORPEDO TUBES, (NORMAL) SCORING, NO PARTIAL DAMAGE,
+NO HYPERSPACE, KILLER SUN, SHIPS START IN STANDARD POSITIONS.
+TYPE Y TO GET A STANDARD GAME.
+</b>
+
+Ralph wants other features. &ldquo;No.&rdquo;
+
+Click: <b>N</b>
+<b>
+HOW MANY SPACE MINES DO YOU WANT?
+CHOOSE FROM ZERO TO 4.
+</b>
+
+Click: <b>4</b>
+<b>
+PARTIAL DAMAGE?
+</b>
+Click: <b>N</b>
+<b>
+DISPLAY SCORES?
+</b>
+Click: <b>Y</b>
+<b>
+TWO TORPEDO TUBES?
+</b>
+Click: <b>N</b>
+<b>
+RANDOM STARTING POSITIONS?
+</b>
+Click: <b>Y</b>
+</pre>
+</type>
+
+<p>
+Immediately the screen goes dark and then displays: Five different
+space ships, each with a dot indicating torpedo tubes are loaded,
+five scores, each at zero, a convincing starfield, and four space mines
+orbiting around a central sun,
+toward which the spaceships are
+starting to fall at a correctly accelerating rate.
+
+<p>
+Players seize the five sets of control buttons,
+find their spaceship persona on the screen,
+and simultaneously turn and fire toward any nearby still-helpless
+spaceships, hit the thrust button to initiate orbit before being
+slurped by the killer sun, and evade or shoot down any incoming enemy
+torpedoes or orbiting mines. After two torpedoes are fired, each
+ship has a three second unarmed &ldquo;reloading&rdquo; time.
+Fired torpedoes last nine seconds and then disappear.
+
+<p>
+As kills are made the scores start to change
++1 for a successful kill, -1 for being killed,
++1 for being lone survivor of a battle.
+Personalities begin to establish themselves 
+in the maneuvering spaceahips: The pilot of the ship called
+
+<i>Pointy Fins</i> is a dead shot but panics easily in cross fire.
+
+<i>Roundback</i> tries to avoid early dueling and
+routinely fires two torpedoes "around the universe" (off
+the screen, so they reappear lethally unexpected from the opposite side).
+
+<i>Birdie</i> drives for the sun and a fast orbit, has excellent agility in sensing
+and facing toward hazard.
+
+<i>Funny Fins</i> shouts a lot, singling out individual opponents.
+
+<i>Flatback</i> is silent and maintains an uncanny field-sense of the
+whole battlesky, impervious to surprise attack.
+
+<p>
+A game is over when only one or no survivors are displayed.
+The screen then blanks out, counts down 5-4-3-2-1, 
+and redisplays a new battle with ships at new random
+positions equidistant from the sun and showing scores
+accumulative from previous games. A spaceship that is killed
+early in a battle will reincarnate after 16 seconds and rejoin the fray, so that a
+single battle may last up to five minutes with a weak player perishing
+several times in it.
+
+<p>
+The twenty or so raucous competitors in
+the Spacewar Olympics quickly organize three events:
+Five-Player Free-For-All,
+Team Competition (two against two),
+and Singles Competition.
+The executive officer of the AI Project, <a href="http://en.wikipedia.org/wiki/Les_Earnest">Les Earnest</a>,
+who kindly OKed these Olympics and their visibility,
+is found to have no immediate function and is sent out for beer.
+
+<p>
+The setting and decor at AI is
+Modern Mad Scientist  -  long hallways and cubicles and
+large windowless rooms, brutal fluoresccnt light, enormous machines
+humming and clattering, robots on wheels, scurrying arcane technicians.
+And, also, posters and announcements against the
+Vietnam War and Richard Nixon,
+computer print-out photos of
+girlfriends, a hallway-long banner
+<b>SOLVING TODAY&rsquo;S PROBLEMS TOMORROW</b>
+and signs on every door in Tolkien&rsquo;s elvish F&euml;anorian script
+ -  the director&rsquo;s office is <a href="http://en.wikipedia.org/wiki/Imladris">Imladris</a>,
+the coffee room The Prancing Pony,
+the computer room Mordor.
+There&rsquo;s a lot of hair on those technicians,
+and nobody seems to be telling them where to scurry,
+
+<p>
+The games progress.
+A tape recorder kibitzes on the first round of Team Competition, 
+four ships twisting, converging, evading, exploding:
+
+<pre>
+Where am P. Where am I?
+<em>Clickclickclickclick</em> 
+Agh! <em>Clickclickclick</em> <em>clickclick</em>
+Glitch. <em>Clickclick</em>
+OK, I won't shoot. <em>Clickclickclick</em>
+
+Good work Tovar.
+Revenge. <em>Clickclick clickclick</em> 
+Cease fire. <em>Click</em>
+<em>clickclick</em>. 
+
+Ohhhhhh NO! You killed me, Tovar.
+
+I'm sorry. <em>Clickclickclick</em>
+Being partners means never having to say you're
+sorry. <em>Clickclickclick</em>
+
+Get him! Get the mother
+<em>Clickclick-clickclickclick</em>
+
+Sacrifice. <em>Clickclick click</em>
+
+Lemme get in orbit. <em>Clickclick</em>
+8'ay to dodge. <em>Click clickclickclick</em>
+
+Awshit. Get tough now.
+
+<em>Clickclickclick</em>
+The other guy was out of torps.
+I knew it and waited till I got a good
+shot. Clickclick.
+
+A beaut. O lord. Clickclclick
+I shot him but then I slurped.
+<em>Click click clickclick</em>
+Oooo!
+We win! Tovar and REM!
+</pre>
+
+Correct. Tovar and REM won the Team Competition
+(REM is how Robert E. Maas is known to the computer
+and thence to his friends). <a href="http://www.baumgart.org/">Bruce Baumgart</a>, who by day builds
+sensing intelligence into a robot vehicle, won the Free-For-All
+with a powerhouse performance. And slim Tovar took the Singles.
+<p>
+<img src="bgb2.jpg" alt="Bruce Baumgart, winner of the Five-Man Free-For-All" align=right>
+
+Meanwhile, your photographer Annie, was tugged all over the lab to
+see the hand-eye rig, the number half-tone printer, various
+spectacular geometric display hacks,
+computer music programs, the color video image maker.
+
+<!--	PAGE 51 ROLLING STONE / DECEMBER 7, 1972
+	========================================
+-->
+
+. . . Four intense hours, much frenzy and skilled concerted action,
+a 15-ring circus in ten different directions, the most
+bzz-bzz-busy scene I&rsquo;ve been around since Merry Prankster Acid
+Tests . . . and really it&rsquo;s just a normal night at the AI Project, at any
+suitably hairy computer research project. Something basic ...
+
+<p>
+These are heads, most of them.
+Half or more of computer science is heads.
+But that's not it.
+The rest of the counterculture is laid low and back these days,
+showing none of this kind of zeal. What, then?
+
+<h2>
+The Hackers
+</h2>
+
+I&rsquo;m guessing that Alan Kay at Xerox Research Center (more on them
+shortly) has a line on it, defining the standard Computer Bum:
+&ldquo;About as straight as you&rsquo;d expect hotrodders to look.
+It&rsquo;s that kind of fanaticism.
+
+A true hacker is not a group person.
+He&rsquo;s a person who loves to stay up all night,
+he and the machine in a love-hate relationship...
+
+They&rsquo;re kids who tended to be brilliant but not very
+interested in conventional goals. And computing is just a fabulous
+place for that, because it&rsquo;s a place where you don't have to be a
+Ph.D. or anything else. It&rsquo;s a place where you can still be an
+artisan. People are willing to pay you if you're any good at all, and
+you have plenty of time for screwing around.&rdquo;
+
+<p>
+The hackers are the technicians of this science  -  
+&ldquo;It&rsquo;s a term of derision and also the ultimate compliment.&rdquo;
+They are the ones who translate human demands into code
+that the machines can understand and act on. They are
+legion. Fanatics with a potent new toy.
+A mobile new-found elite, with its own apparat,
+language and character, its own legends and humor.
+Those magnificent men with their flying machines,
+scouting a leading edge of technology
+which has an odd softness to it;
+outlaw country, where rules are not decree
+or routine so much as the starker demands of what&rsquo;s possible.
+
+<p>
+A young science travels where the young take it. The wiser computer
+research directors have learned that not trusting their young
+programmers with major responsibility can lead immediately to no
+research. AI is one of perhaps several dozen computer research
+centers that are flourishing with their young, some of them with no
+more formal education than they got at the local Free School.
+
+I&rsquo;m talking to Les Earnest, the gent who went for beer. He&rsquo;s tall,
+swarthy, has a black and white striped beard, looks like a Sufi
+athlete. He&rsquo;s telling me about what else people build here besides
+refinements of Spacewar.
+
+There&rsquo;s a speech recognition project.
+There's the hand-eye project, in which the computer is
+learning to see and visually correct its robot functions.
+There's work on symbolic computation
+and grammatical inference.
+
+Work with autistic children,
+&lsquo;trying to get them to relate to computers first,
+and then later to people. This seems to be successful in part
+because many of these children think of themselves as machines.
+You can encourage them to interact in a game with the machine.&rdquo;
+<p>
+Another window on the interests
+of AI and of the hackers is a
+posted printout of the file of AI&rsquo;s system programs, 
+some 250 elaborate routines available. Scanning:
+
+<i>
+Hand Eye Monitor ...
+Go Game ...
+DPY Hack Broom Balancing ...
+Comparison Portion of Soup ...
+Retrieves Selected AP News Stories ...
+Display Hack ...
+Mad Doctor ...
+New TV Editor ... 
+Fortune Cookie Program ...
+Another Display Hack ...
+Kalah Game ...
+Oh Where, Oh Where Has My Little Job Gone ...
+Paranoid-Model ...
+Pruning Program ...
+The Wonderful News Program ...
+Old Spacewar ...
+New Spacewar ...
+Send Everyone a Message ...
+Old Version of Daemon ...
+Tell Everyone the System Is Going Down ...
+Music Compiler Sort Of ...
+New Music Comppiler ...
+</i>
+
+<p>
+A distinction exists between low-rent and high-rent computer research,
+between preoccupations of support group-(hackers) and of research group.
+The distinction blurs often. Les Earnest: &ldquo;Sometimes it&rsquo;s
+hard to tell the difference between recreation and work, happily. We
+try to judge people not on how much time they waste but on what they
+accomplish over fairly long periods of time, like a half year to a
+year.&rdquo; He adds that Spacewar players &ldquo;are more from the support groups
+than the research groups. The research groups tend to get their kicks
+out of research.&rdquo;<p>
+Spacewar is low-rent.
+
+<h2>
+Spacewar
+</h2>
+
+
+Low-rent ... but pervasive.
+Alan Kay: &ldquo;The game of Spacewar blossoms spontaneously 
+wherever there is a graphics display connected to a computer.&rdquo;
+
+<p>
+The first opportunity was at the Massachusetts Institute of
+Technology (MIT) Electrical Engineering Department back in
+1961-1962. 
+The earliest mini-computer, Digital Equipment Corporation's PDP-1,
+was installed in the kludge room with a cathode ray tube
+display hooked on.
+
+("Kludge"  -  any lash-up often involving chewing
+gum, paper dips, scotch tape; it works if no one trips over a wire;
+unadaptable"" a working mess.)
+
+There it was that Steve Russell and his fellow hackers
+Alan Kotok, Peter Samson and Dan Edwards
+introduced Spacewar to the world.
+
+<p>
+I phoned Russell at the sprawling
+old fabric mill in Maynard, Massachusetts, where Digital Equipment
+Corporation manufactures the most popular research and education
+computers on the market.
+
+Russell currently is a researcher for them
+working on man-machine interface problems  - adapting computer
+nature to fit human nature.
+
+Back in 1962 he was a hacker, 23 or so,
+a math major two years out of Dartmouth
+working in the brand new field
+of computer science for John McCarthy at MIT.
+
+<p>
+His account of the invention of
+Spacewar is not only intriguing history,
+it's the most,sophisticated analysis
+of good game design I've ever run across  -  elegant
+work. But that's in retrospect;
+back then it was just kids staying up all night.
+
+<p>
+"We had this brand new PDP-l," Steve Russell recalls.
+"It was the first minicomputer, ridiculously inexpensive for its
+time. And it was just sitting there.
+
+It had a console typewriter that worked right, 
+which was rare, and a paper tape reader and a cathode
+ray tube display,
+
+[There had been CRT displays before, but primarily
+in the Air Defense System.]
+
+Somebody had built some little pattern-generating 
+programs which made interesting patterns like a
+kaleidoscope. Not a very good demonstration.
+Here was this display that could do all sorts of good things! 
+So we started talking about it,
+figuring what would be interesting displays.
+We decided that probably you could
+make a two-Dimensional maneuvering sort of thing,
+and decided that naturally the obvious thing to do was spaceships."
+
+<p>
+Naturally?
+
+<p>
+&ldquo;I had just finished reading <a href="http://en.wikipedia.org/wiki/E._E._Smith">Doc Smith</a>&rsquo;s Lensman series.
+He was some sort of scientist
+but he wrote this really dashing brand of science fiction.
+The details were very good and it had an excellent pace.
+His heroes had a strong tendency to get pursued by the villain
+across the galaxy and have to invent their way out of their problem
+while they were being pursued. That sort of action was the thing that
+suggested Spacewar. He had some very glowing descriptions of
+spaceship encounters and space fleet maneuvers.&rdquo;
+
+&ldquo;Doc&rdquo; Smith: 
+&ldquo;The <i>Boise</i> leaped upon the Nevian, every weapon aflame.
+But, as Costigan had expected, Nerado's vessel
+was completely ready far any emergency.
+And, unlike her sister-ship, she was manned by scientists
+well-versed in the fundamental theory of the weapons with which they
+fought. Beams, rods and lances of energy flamed and flared; planes and
+pencils cut, slashed and stabbed; defensive screens glowed redly or
+flashed suddenly into intensely brilliant, coruscating
+incandescence. Crimson opacity struggled sullenly against violet
+curtains of annihilation. Material projectiles and torpedoes were
+launched under full-beam control; only to be exploded harmlessly in
+mid-space, to be blasted into nothingness or to disappear
+innocuously against impenetrable polycyclic screens.&rdquo; 
+ -<a href="http://en.wikipedia.org/wiki/Triplanetary_(novel)">Triplanetary</a>(1948)
+
+<p>
+Steve Russell: "By picking a world which people weren't familiar with,
+we could alter a number of parameters of the world in the interests of
+making a good game and of making it possible to get it onto a
+computer. We made a great deal of compromises from some of our
+original grand plans in order to make it work well.
+
+<p>
+"One of the important things in Spacewar is the pace.
+It's relatively fast-paced, and that makes it an interesting game.
+It seems to be a reasonable compromise between action  -  pushing buttons  -  and
+thought. Thought does help you,
+and there are some tactical considerations,
+but just plain fast reflexes also help. 
+
+
+<!--
+PAGE 52 ROLLING STONE / DECEMBER 7, 1972
+=========================================================================================
+sheet #3
+-->
+
+<p>
+"It was quite interesting to fiddle with the parameters, which of course I
+had to do to get it to be a really good game. By changing the
+parameters you could change it anywhere from essentially just
+random, where it was pure luck, to something where skill and ex-
+experience counted above everything else. The normal choice is
+somewhere between those two. With Spacewar an experienced player can
+beat an amateur for maybe 20 to 50 games and then the amateur begins
+to win a little."
+
+<p>
+The pride of any hacker with a new program is its
+"features." Fresh forms of Spacewar with exotic new features
+proliferated. As Russell explains it, everything at MIT had priority
+over Spacewar, but it was an educational computer after all, and
+developing new programs (of Spacewar) was educational, and then those
+programs needed testing... The initial game of simply two spaceships
+and their torpedoes didn't last long. 
+
+<p>
+Gravity was introduced. Then
+Peter Samson wrote in the starfield with a program called "Expensive
+Planetarium" (MIT's first text display had been called "Expensive
+Typewriter"). Russell: "Having a background was important to give
+some idea of range and so on. Our Spacewar did not have gravity
+affecting the torpedoes  - our explanation was that they were photon
+bombs and that they weren't affected by gravity. Subsequent versions
+on newer computers have got enough compute time so that they can
+afford to use gravity for the torpedoes, and that makes it a more
+interesting game."
+
+<p>
+And then there came a - startling development
+called Hyperspace  -  when your situation got desperate you could
+push both turn buttons at once and go into hyperspace: disappear from
+the screen for a few seconds and then reappear at a random new
+position... maybe.
+
+<p>
+&ldquo;Hyperspace was in within a month or so,&rdquo; says
+Russell. &ldquo;It's a little controversial. Some people deplore it, and
+it's fairly common to play games without it.... It was of course
+vital to put in problems with hyperspace. You know, when you come back
+into normal space from hyperspace, there is initially a small
+energy-well which looks amazingly like a star; if a torpedo is shot
+into that energy well, lo and behold the ship blows up. There is also
+a certain probability of blowing up as you finally break out of
+hyperspace. Our explanation was that these were the Mark One
+hyperfield generators and they hadn't done really a thorough job of
+testing them  -  they had rushed them into the fleet. And
+unfortunately the energies that were being dissipated in
+
+the generators at breakout were juuust barely what they could handle. So the probability of the generator flying apart and completely killing the spaceship was noticeable on the first couple of uses, and after four uses it was only an even chance of surviving hyperspace. So it was something that you could use butit wasn't something that you wanted to use.&rdquo;
+
+<blockquote><p>&ldquo;Doc&rdquo; Smith: <em>Twenty-odd years before, when the then </em>Dauntless<em> and her crew were thrown out of a hyper-spatial tube and into that highly enigmatic Nth space, LaVerne Thorndyke had been Chief Technician. Mentor of Arisia found them, and put into the mind of Sir Austin Cardynge, mathematician extraordinary, the knowledge of how to find the way back to normal space. Thorndyke, working under nerve-shattering difficulties, had been in charge of build the machines were were to enable to vessel to return to her home space. He built them. She returned.</em>
+<p><em>&mdash; <a href="http://en.wikipedia.org/wiki/Children_of_the_Lens">Children of the Lens</a> (1954)</em>
+<p>
+</blockquote>
+PETER DEUTSCH now at, Xerox ' Research Center, reminisces - about the
+first Spacewar: &ldquo;The programming of the thing was a remarkable tour de
+forge, because the machine did not have a multiply or divide, The way
+that the outline of the spaceship was rotated was by compiling a
+special-purpose program. Nice programming trick... Spacewar was ' not
+an outgrowth of any work on computer-graphics, but it may have
+inspired - some of it. That's speculation&rdquo;
+
+<p>
+Albert Kuhfeld, writing in July, 1971, Analog Magazine, reminisces,
+&ldquo;The first few years of Spacewar at MIT were the best.
+The game was in a rough state, students were working their hearts out improving it, 
+and the faculty was nodding benignly as they watched.
+the students learning computer theory faster and more painlessly
+than they'd ever seen before...
+
+And a background of real-time interactive programming
+was being built up", that anybody in the school could draw on;
+one of the largest
+problem's in the development of the game was having . how to talk to a
+computer program and have it answer back.&rdquo;<p>
+Within weeks of its
+invention Spacewar was spreading across the country to other
+computer research centers, who began adding their own wrinkles.
+
+<p>
+There was a variation called Minnesota Hyperspace in which you kept your
+position but became invisible; however if you applied thrust, your
+rocket flame could be seen.... Score-keeping. Space mines, Partial
+damage  - if hit in a fin you could not turn in that direction.
+
+<p>
+Then "2&frac12;-D" Spacewar, played on two consoles.
+Instead of being God viewing the whole battle,
+you're a mere pilot with a view put the front of your spaceship
+and the difficult task of finding your enemy.
+(Perspective could be compressed so that even though far away
+the other ship would be large enough to see.)
+
+<p>
+Adding incentive, MIT
+introduced an electric shock to go with the explosion of your ship.
+A promising future is seen for sound effects. And now a few commercial
+versions of Spacewar  - 25 cents a game  - are appearing in
+university coffee shops.
+
+<p>
+Steve Russell still dreams: "Something
+which I wanted to do is get some interesting sort of fleet
+action. There are some versions of Spacewar which allow two, three
+ships, but as far as I know no one has been sufficiently clever to set
+things up so there are ships with noticeably different characteristics
+that could fight in interesting combinations."
+<p>
+John Lilly (of dolphin, acid, and bio-computer fame) tells a story that
+IBM once forbade the playing of Spacewar
+by IBM researchers. After a few suddenly uncreative months of
+joyless research the ban was rescinded. Apparently, frivolous
+Spacewar had been the medium of important experiments. (In every
+computer-business story I've ever heard, IBM invariably plays the
+heavy.)
+
+<p>
+Les Earnest at AI confirms the moral.
+For instance, at his lab the ingenious
+device for handling interactive graphics on the
+time-shared computer is galled, 
+"Spacewar Mode" in honor of its origin.
+
+<p>
+Surprisingly, there have been relatively few Spacewar-like
+games invented. The most elaborate is a "Snoopy and the Red Baron"
+game which involves flying,pour console like a biplane. But computer
+graphics as an area of research has mushroomed.
+
+The field is too wide and deep and engrossing for me to report here.
+It's an art form waiting for artists,
+a consciousness form waiting for mystics.
+
+<p>
+All right, one sample:
+the vision helmet designed by Ivan Sutherland at Harvard.
+The helmet covers the front of your face with special
+goggles that are tiny Co,puter-driven TV screens.
+
+They present you with a visual space in which you can move. 
+The computer monitors where your head moves and alters what you see accordingly.
+In the projected reality you can look around,
+you can look behind you, you can move toward things and through them.
+You can furthermore change parameters.
+Your head goes forward a foot and in the vision you soar a hundred yards.
+Or you can travel in exaggerated relativistic space,
+so that if you lunge at something it bends away.
+
+Become a geometric point;
+become enormous; live out Olaf Stapledon's Star Maker.
+
+
+<h2>
+A R P A
+</h2>
+
+The letters stand for Advanced Research Projects Agency, one of the
+rare success stories of Government action. Poetically enough it owes
+its origin to real spacewar. After Russia's Sputnik humiliated the US
+in the middle of the Fifties, America came back hard with the Mercury
+Program, John Glenn and all that, crash-funded through a new agency
+directly under the Secretary of Defense  -  ARPA.
+
+<p>
+When the US space
+program was moved out of the military to become NASA, ARPA was left
+with a lot of funding momentum and not much program. Into this
+vacuum stepped J.C.R. Licklider among others, with the suggestion that
+since the Defense Department was the world's largest user of
+computers, it would do well to support
+information-medium like computers. 
+
+<p>
+So in 1963 a fraction of ARPA's
+budget, some $5-8 million, went into a program called IPT,
+Information Processing Techniques, under the initial direction of
+Licklider and then of a 26-year-old named Ivan Sutherland. Suth-
+erland, the developer of "Sketchpad" at MIT, gave the agency its bias
+toward interactive graphics and its commitment to "blue sky mode" re-
+search. The next director, Bob Taylor, then 32, doubled I PT's
+. budget (while ARPA's overall budget was shrinking) and administered
+a five-year golden age in computer research.
+
+<p>
+The beauty was, that being at the
+very top of the Defense Establishment, the agency had
+little Congressional scrutiny had little bureaucratic responsibility,
+able to take creative chances and protect long-term deep-goal
+projects.
+
+Alan Kay: "90 percent of all good things that I can think
+of that have been done in computer science have been done funded by
+that agency. Chances that they would have been funded elsewhere are
+very low. The basic ARPA idea is that you find good people and you
+give them a lot of money and then you step back. If they don't do good
+things in three years they get dropped  - where 'good' is very much
+related to new or interesting."
+
+<p>
+Legends abound from early ARPA days,
+full of freedom and weirdness.
+Here's one of many from Project MAC
+(Multiple Access Computer) days - Alan Kay:
+
+"They had a thing on the PDP-l called 'The Unknown Glitch' 
+["Glitch"  -  a kink, a less-than-fatal but irritating fuck-up].
+
+They used to program the thing either in direct machine code,
+direct octal, or in DDT, In the early days it was a paper-tape machine.
+It was painful to assemble stuff,
+so they never listed out the programs. 
+The programs and stuff just lived in there,
+just raw seething octal code. And one of the guys
+wrote a program called 'The Unknown Glitch,'
+which at random intervals would wake up,
+print out 
+<b>I AM THE UNKNOWN GLITCH. CATCH ME IF YOU CAN</b>,
+and then it would relocate itself somewhere else in core memory,
+set a clock interrupt, and go back to sleep. There was no way to find it." 
+
+<p>
+One of the accomplishments of ARPA-funded research during this
+time was time-sharing, Time-sharing is a routing technique that allows
+a large number of users to sit down "on-line" with a. computer as if
+each were all alone with it. Naturally, timesharing was of no interest
+to computer manufacturers like IBM since it meant drastically morc
+efficient use of their hardware, and they were still a long way
+Project MAC vet ( Peter Deutsch inside the Xerox building: More than u
+hacker, in the opinion of a colleague, "although he has some of that
+style. He's a virtuoso."
+
+<hr>
+<!--
+PAGE 54 ROLLING STONE / DECEMBER 7, 1972
+=========================================================================================
+sheet #4
+-->
+
+The next (and current) director at ARPA-IPT was Larry Roberts, a brilliant
+researcher who had developed the first 3-D vision programs.
+
+His major project has been getting the ARPA Network up.
+("Up" around computers means working,
+  the opposite of "down" or crashed.)
+
+The dream for the Net was that researchers 
+at widely separated facilities could share
+special resources, dip into each other's files, and even work
+on-line together on design problems too complex to solve alone.
+
+<p>
+At present some 20 major computer centers
+are linked on the two-year-old ARPA Net.
+Traffic on the Net has been very slow, 
+due to delays and difficulties of translation between different computers
+and divergent projects.
+Use has recently begun to increase as researchers travel
+from center to center and want to keep in touch with home base,
+and as more tantalizing, sharable resources come available. 
+
+How Net usage will evolve is uncertain.
+There's a curious mix of theoretical fascination
+and operational resistance around the scheme.
+The resistance may have something to do with reluctances
+about equipping a future Big Brother and his Central Computer.
+The fascination resides in the thorough rightness of computers
+as communications instruments, which implies some revolutions.
+
+<p>
+One popular new feature on the Net is
+AI's Associated Press service. From anywhere on the Net you can log in
+and get the news that's coming live over the wire or ask for all the
+items on a particular subject that have come in during the last 24
+hours. Plus a fortune cookie. Project that to household terminals, and
+so much for newspapers (in present form). 
+
+<p>
+Since huge quantities of
+information can be computer-digitalized and transmitted, music
+researchers could, for example, swap records over the Net with
+"essentially perfect fidelity." So much for record stores (in present
+form).
+
+<p>
+I asked Alan Kay if Spacewar had been played over the Net.
+He said it's possible.
+
+I asked if there'd been international Spacewar yet,
+and was told a story. "There's. a problem there of sending code
+groups, When Greenblatt's chess program reigned supreme, they tried to
+play one of. the Russian chess œ programs. Instead of doing it by mail
+or using an international phone call ' they decided to do it by
+amateur radio. i There's this federal statute against ' transmitting
+code groups of any kind,; including chess moves. It took a long time
+to straighten that out. There was eventual communication with the
+Russians through a ham link in Switzerland."
+
+<p>
+True hackers. Who won? 
+<p>
+"Greenblatt's program won. It's called 'Mack Hack 6.'
+It was a Class C player, and has since been 
+superseded by a couple of other programs."
+Poor Russia. Do they regret Sputnik and the 
+dialectical forces it unleashed? 
+
+<h2>The Research Park</h2>
+<p>
+THE WESTERN POLE of the U.S. electronics research and manufacturing axis is the San 
+Francisco Peninsula; the eastern end is Boston's Route 128. The tilt of talent is westward. 
+The Shy Research Center (not their real name) is an idyll, a new building high on 
+an oak-savannahed golden foothill in Stanford's industrial park
+in Palo Alto, California, a blue-skied  shimmery threatless landscape.
+"Every time I think of that place I start to scratch my balls. It 
+makes me nervous," argues dome and solar designer Steve Baer from dusty Albuquerque, 
+recalling that most of the evil he knows has emitted from similar ivory towers.
+
+<p>
+Alan Kay, 32, child prodigy (National Quiz Kid at ten), 
+former musician and artist, worked with Ivan Sutherland
+and Dave Evans at Utah, presently a researcher at Xerox.
+Alan shifts comfortably in his office bean-bag chair
+and appraises his colleagues. "This is really a frightening group,
+by far the best I know of as far as talent and creativity.
+The people here all have track records
+and are used to dealing lightning with both hands."
+
+<p>
+<img src=deutsch.jpg alt="Peter Deutsch" align=right>
+
+Peter Deutsch, bearded and intent, 26, veteran of the early days at
+Project MAC, has served on every major front in computer science, now
+has a cubicle near Kay's at Xerox Research Center. Alan remarks on his
+neighbor, "Peter is in my opinion the world's greatest
+programmer. He's much more than a hacker, although he has some of that
+style. He's a virtuoso; his programs have very few mistakes. He has
+probably more written code running than anybody in the ARPA
+community." 
+
+<p>
+But Peter doesn't work for ARPA any more. One who does,
+Smokey, at Stanford Research Institute Augmentation Research Center,
+tells Peter,
+"You get just a few more agates
+in that group and you'll have all the marbles."
+
+<p>
+The chief marble collector is  - well, well  -  Bob Taylor.
+When he left the newly restricted ARPA
+he spent a year at Utah decompressing from the Pentagon
+and then went to Xerox and there continued his
+practice of finding and rewarding good men for doing pretty much
+whatever they considered important work.
+
+Freedom to explore in the company of talent is an irresistible lure.
+In two years Xerox had twenty of the best men around working. 
+Toward what? Well, whatever.
+
+<img src="parc.jpg" align=left alt="collage: Bob Taylor, Alan Jay, Stewart Brand, Parc Bean-Bag room">
+
+<p> I ask Bob Taylor about his position at Xerox.
+"It's not very sharply defined. You could call me a research planner."
+He's Texas born, trained in experimental psychology, soft-spoken.
+Where Alan Kay would summarize one of Taylor's papers with the statement
+"Economy of scale is one of the biggest frauds ever invented,"
+Taylor will respond to a question about
+the economics of massive operations like huge computer
+complexes with a long look, a puff of pipe smoke, and a remark that
+"the benefits are less than claimed."
+
+<!-- column#4 -->
+<p>
+And that is the general bent of research at Xerox, soft, away from
+hugeness and centrality, toward the small and the personal, toward
+putting maximum computer power in the hands of every individual who
+wants it.
+
+<p>
+In one direction this means the automated office,
+replacing paper, desk and phone with an interactive console  - 
+affording the possibility of doing the whole of city work in a country
+cottage. The basic medium here is the text manipulation system
+developed at Doug Engelbart's Augmentation Research Center, which, as
+Doug puts it, allows you to "fly" formerly unreachable breadths and
+depths of your information matrix of your knowledge, Ask for item
+so-and-so from your file; blink, there it is. Make some changes; it's
+changed, Designate keywords there and there; done. Request a
+definition of that word; blink, presented; Find a quote from a
+document in a friend's file; blink, blink, blink, found. Behind that
+statement add a substatement giving cross-references and cross-access;
+provided. Add a diagram and two photos; sized and added. Send the
+entire document to the attention of these people; sent. Plus one on
+paper to mail to Washington; gzzaap, hardcopy, with an addressed
+envelope.
+
+<p>
+That's for grownups.
+Alan Kay is more interested in us kids
+He repudiates the manipulative arrogance of "Computer-Aided Instruction" 
+and serves the dictum of Seymour Papert,
+Should the computer program the kid 
+or should the kid program the computer?
+
+<p>
+Alan is designing a hand-held stand-alone interactive-graphic computer
+(about the size, shape and diversity of a Whole Earth Catalog,
+electric) called "Dynabook." It's mostly high-resolution display
+screen, with a keyboard on the lower third and various cassette-
+loading slots, optional hook-up plugs, etc. His colleague Bill English
+describes the fantasy. thus:
+
+<p>
+"It stores a couple of million
+characters of text and does all the text handling for you  - 
+editing, viewing, scanning, things of that nature. It'll have a
+graphics capability which'll let you make sketches, make
+drawings. Alan wants to incorporate music in it so you can use it for
+composing. It has the Smalltalk language capability which lets people
+program their own things very easily. We want to interface them with a
+tinker-toy kind of thing. And of course it plays Spacewar."
+
+<p>
+The drawing capability is a program that Kay designed called "Paintbrush."
+Working with a stylus on the display screen, you 
+reach up and select a shape of brush, then move the brush over
+and pick up a shade of half-tone-screen you like,
+then paint with it. If you make a mistake, paint it out with "white." The screen 
+simultaneously displays the image you're working on and a one-third reduction of it, where the 
+dot pattern becomes a shaded half-tone.
+
+<p>
+A Dynabook could link up with other Dynabooks,
+with library facilities, with the telephone,
+and it could go and hide where a child hides.
+Alan is determined to keep the cost below $500
+so that school systems could provide Dynabooks free out 
+of their textbook budgets.
+If Xerox Corporation decides to go with the concept,
+the Dynabooks could be available in two or three years,
+but that's up to Product Development, not Alan or the
+Research Center. 
+
+Peter Deutsch comments:
+"Processors and memories are getting smaller and cheaper.
+Five years ago the idea of the Dynabook would have been a
+absolutely ridiculous. Now it merely seems difficult....
+
+<!--
+	picture caption
+-->
+<p>
+<i>
+Immediately below left, chief marble collector Bob Taylor;
+and right, quiz kid emeritus Alan Kay.
+Below him, the Dynabook; the pocket calculator; the Bean-Bag Room.
+Center left, the author draws with the computer.
+</i>
+
+<hr>
+
+<!--
+PAGE 56 ROLLING STONE / DECEMBER 7, 1972
+=========================================================================================
+sheet #5
+-->
+
+The emergence of computers into society at large
+has come from a completely different quarter than you'd expect, namely
+the small calculating machine manufacturers. The current ultimate step
+in that direction is the Hewlett-Packard Pocket Calculator. They
+sell for $400, and they're essentially a small computer with no
+program and very little storage. Wang Laboratories makes cal-
+. culators which are really computers in all but name  -  they're
+progra~ª~ble; they have lots of storage.... But still these things
+only reach thousands of people, not millions. They'll reach millions
+when computer power becomes like telephone power.... I think it's
+important to bring computing to the people." er a 
+
+<h2>
+Counter-computer
+</h2>
+
+How mass use of
+computers might go is not even slightly known as yet, except for
+obviousus applications in the schools. One informative place to
+inquire is among the hackers, particularly at night when they're
+pursuing their own interests.
+
+<p>
+One night at a computer center (nameless) 
+I wandered off from the Spacewar game to a clattering
+printout machine where a (nameless) young man with a trim beard was
+scanning columns of entries like,
+"Pam $1.59, Bud $14.75, Annie $2.66."
+He was an employee taking advantage of unbusy after hours time
+on the computer (computers are never turned off) to run his commune
+accounts.
+
+<p>
+"Money seems to be a very sensitive issue," he explained,
+"more sensitive than sex, even. People in the house who went on
+vacation for a week didn't want to be charged for the food during that
+time and so forth. It was taking me hours and hours every month to
+figure out people's house bills. Now it takes about a half hour a
+month. Every week I stick up a list on the refrigerator, and anyone
+who buys food or anything for the house writes it down on the
+list. I type all that into the computer, along with the mortgage
+payment and the phone bills and the gas bill. The House Bill Program
+goes around and divides up the common charges and adds in all the
+special charges and figures out exactly who owes who how much. Each
+person at the end of the month gets a bill plus a complete breakdown
+of what their money goes to"
+
+<p>
+What else goes on around here in moonlight mode? "A friend of 
+mine has his recording tape library index on the computer.
+Everyone does their term papers and 
+their theses on it. It'll justify margins,
+incorporate corrections, handle illustrations, paging, 
+footnotes, headings, indexing.... Two years ago when we had
+the great faculty strike against the War,
+we rigged up a program that would type out a form letter
+to all your congressmen and type 
+in your name and address. 
+
+<p>
+"Bruce is working on an astrology program. You put in your 
+birthplace and date, down to the minute, and it gives you 
+all your aspects, your chart. You can get 
+your progress chart too... One of the hackers is building
+a computer at home out of Army surplus parts,
+and he's using the facilities here to help his design,
+because we have this huge battery of 
+computer design programs." 
+
+<p>
+Indeed. Far beyond borrowing some
+one else's computer is having your own computer.
+Hear now the saga of Pam Hart and Resource One.
+In 1969 Pam was a computer programmer at Berkeley
+who found the work "just too disillusioning. Then during
+the Cambodia, Invasion demonstrations in Berkeley a group of us got
+together and designed a retrieval program for coordinating all of the
+actions on campus. It was a fairly dead system, but what it-did was it
+brought together people who had never worked together before and
+started them talking and thinking about how it was actually possible
+to do something positive with technology,
+when <i>you</i> define the goals."
+
+<p>
+Computing power to the people.
+So began one of the great hustles of
+modern times. Peter Deutsch is still awed: . "Pam could.hustle blood
+from a turnip." She speaks quietly in a hasty, gentle, self-effacing
+murmur. You have to lean close to hear the lady helping you help her
+to plant dynamite in the very heart of the Combine.
+
+<p>
+<img src=gorin.jpg alt="Collage: Ralph Gorin, Pam Hart" align=left>
+
+"Four of us came'
+from Berkeley to Project One and set up in a little office
+on the second floor. (Project One is a factory warehouse in the
+south-of-Market area of San Francisco. It started in 1970 with a
+radio announcement"' "If you're interested in building a community and
+cheap space and sharing resources, come to Project One." Within two
+weeks the building was filled with 200 artists, craftsmen, technicians
+and ex-professionals, and their families.] We worked, on designing a
+retrieval system so all the switchboards in the City could interact,
+using a common data base, with all the care taken for privacy and
+knowing who put stuff in so you could refer back. Hopefully you could
+generate lists that were updated and be as on-line as possible.
+
+<p>
+"We found that it just did not work using borrowed time, stolen time,
+bought time - we couldn't afford it.
+So about a year later we set about getting surplus.
+After a couple of months of calling everybody
+in San Francisco that w.as related to computers, Trans-America said
+that they had three XDS 940s in a warehouse [each costing $300,000 new]
+
+<p>
+"We negotiated the contract, got a '940 [free] which we refurbished;
+It arrived last April; we installed it in June. It was probably the
+fastest machine installation ever. We had it up in three days. We
+were really fortunate the whole time. We had a lot of people from
+Xerox Park, a lot of the old people from Berkeley Computer
+Corporation, that have assisted us in areas where we weren't totally
+sure of the appropriate thing to do ourselves. Peter Deutsch brought
+up the operating system.
+
+<p>
+"Now we're a little more stable
+economically. We got a foundation grant . of $10,000 last November
+from Stern. Then we borrowed $8000 from the Whole Earth Catalog, of
+which we paid back six. [News to me, This was part of the $20,000 I
+had turned over to the mob at the Catalog Demise Party. One Fred Moore
+finally signed for $15,000 of it and ran a series of subsequent
+consensus money decidings, which evidently were susceptible to Pam's
+soft voice and clear head.] After two years we're right there at the
+beginning point of actually being able to do the things that we said
+we wanted to do.
+
+<p>
+"One of the first things we have to do is have a
+retrieval system that's general enough that it can handle things like
+Switchboard referral information, also people who are doing
+investigative work on corporations, people doing research on
+foundations, a whole lot of different groups either willing or not
+willing to share data bases.
+
+<p>
+"We're interested in some health care
+statistical systems. There are a lot of Free. Clinics in the city, and
+they 'have to do all of their work by hand. We want to incorporate a
+system'doing statistical work for the clinics, charging the Health
+Centers that have money and not charging the Free Clinics that don't
+have money.
+
+<p>
+"A third area is using government generated tapes like
+assessor'.s tapes and census tapes, and start trying to do some
+analysis of the city. And the education program. The ideas include
+what Dymax is doing  -  set up a little recreation center where
+people could .come and play games and hopefully some of them would be
+learning games. And then I'm interested in doing community education
+with video tape. People want to know about computers, not how to use
+them, necessarily, but how they're used against them."
+
+<p>
+Counter-computer. At present there are ten people in the 
+core group at Resource One ranging in age from 19 to 30 (Pam is 25),
+with decisions made by consensus.
+
+<p>
+Another scheme in the works 
+involves the people around Steve Beck at the National Center
+for Experiments in Television a few blocks away. 
+Steve has built the world's first real-time video synthesizer - the video 
+equivalent of the Moogs, Buchlas, and Arps of music synthesis.
+It's a natural to link up with a computer. 
+The current plan is for Steve and his equipment
+to move into the basement below Resource One,
+which should liven up the scene - Pam's gang 
+is short on true hacker time-wasting frivolity;
+they're warm, but rather stodgier than some of the Government-funded folks. 
+Maybe the video link-up will give us some higher
+levels of Spacewar on the way to exploring new territory entirely.
+If I were a computer manufacturer I'd pay the closest attention and maybe
+donate some goodies. 
+
+<!-- caption to Ralph Gorin / Pam Hart picture -->
+
+A couple of Spacewar Olympians
+enjoy the free beer & an unauthorize TV screen production
+Below, Pam Hart with her People's XDS 940:
+"People want to know about computers - not to use them, necessarily,
+but how they're used against them."
+<hr>
+<!--
+PAGE 58 ROLLING STONE / DECEMBER 7, 1972
+=========================================================================================
+sheet #6
+-->
+
+<h2>
+Control and Spontaneity
+</h2>
+
+I&rsquo;m no manufacturer, but I&rsquo;m a hungry enough potential
+user to pretend briefly that I know what I&rsquo;m talking about and run a
+trial polemic...
+
+<p>
+Until computers come to the people we will have no
+real idea of their most natural functions. Up to the present their
+cost and size has kept them in the province of rich and powerful
+institutions, who, understandably, have developed them primarily
+as bookkeeping, sorting and control devices. The computers have
+been a priceless aid in keeping the lid on top-down organization. They
+are splendidly impressive as oracles of (programmable) Truth, the
+lofty voice of unchangeable authority.
+
+<p>
+In fact, computers don&rsquo;t know shit.
+Their special talent in the direction of intelligence is the
+ability to make elabrate models and fiddle with them, to I
+answer in detail questions that begin &ldquo;What if ..?&rdquo; In this they
+parallel (and can help) the acquiring of intelligence by children. But
+the basic fact of computer use is &ldquo;Garbage In, Garbage Out&rdquo;  -  if
+you feed the computer nonsense, it will dutifully convert your mistake into insanity-cubed and feed it back to you. Children are
+different  -  &ldquo;Garbage In, Food Out&rdquo; is common with them. Again, the
+benefits of variant parallel systems. Computer function is
+mostly one-track-mind, in which inconsistency is intolerable. The human mind functions on multiple tracks (not all of them accessible); it
+can tolerate and even thrive on inconsistency.
+
+<p>
+I suggest that the parallel holds for the overall picture of computer use.
+Where a few brilliantly stupid computers can wreak havoc,
+a host of modest computers (and some brilliant ones) serving innumerable
+individual purposes can be healthful, can repair havoc, feed life.
+(Likewise, 20 crummy speakers at once will give better sound
+fidelity than one excellent speaker  -  try it.)
+
+<p>
+Spacewar serves Earthpeace.
+So does any funky playing with computers or any
+computer-pursuit of your own peculiar goals, and especially any use of
+computers to offset other computers. It won't be so hard. The price of
+hardware is coming down fast, and with the new CMOS chips
+(Complimentary Metal Oxide Semiconductor integrated circuits) the
+energy-drain of major computing drops to Flashlight-battery
+level.
+
+<p>
+Part of the grotesqueness of American life in these latter days
+is a subservience to Plan that amounts to panic.
+What we don't intend shouldn't happen.
+What happens anyway is either blamed on our enemies or baldly ignored.
+In our arrogance we close our ears to voices not our rational own,
+we routinely reject the princely gifts of spontaneous generation.
+
+<p>
+Spacewar as a parable is almost too pat. It was the illegitimate child 
+of the marrying of computers and graphic displays. It was part of no one's grand scheme. It 
+served no grand theory. It was the enthusiasm of irresponsible youngsters. It was disreputably 
+competitive ("You killed me, Tovar!"). It was an administrative headache. It was merely 
+delightful.
+
+<p>
+Yet Spacewar, if anyone cared to notice,
+was a flawless crystal ball of things to come 
+in computer science and computer use:
+
+<ol>
+<li> It was intensely interactive in real time with the computer.
+
+<li> It encouraged new programming by the user.
+
+<li> It bonded human and machine through a responsive
+broadband interface of live graphics display. 
+
+<li> It served primarily as a communication device
+between humans. 
+
+<li> It was a game.
+
+<li> It functioned best on, stand-alone equipment 
+(and diarupted multiple-user equipment). 
+
+<li> It served human interest, not machine.
+(Spacewar is trivial to a computer.) 
+
+<li> It was delightful.
+</ol>
+
+<p>
+In those days of batch processing and passive consumerism 
+(data was something you sent to the manufacturer, like color film),
+Spaccwar was heresy, uninvited and unwelcome.
+The hackers made Spacewar, not the planners.
+When computers become available to everybody, the hackers take over.
+We are all Computer Bums, all more empowered as individuals
+and as co-operators. That might enhance things ... 
+like the richness and rigor of spontaneous creation and
+of human interaction ... of sentient interaction.
+
+<h2>
+Appendix 1
+</h3>
+
+<h2>
+Access to Computers
+</h2>
+
+As <a href="http://en.wikipedia.org/wiki/James_A._Moorer">Andy Moorer</a> puts it,
+&ldquo;Basically all you have to do is read a book on computer programming,
+and you're an instant computer scientist.&rdquo; Alan Kay insists
+that most of computer science can be mastered in one year
+of close attention. That's how young a science it is.
+<p>
+The main thing is getting with computers.
+If you live near a university or have family
+in a business that uses cpmputers, you may be able to wangle moonlight
+time and informal instruction.
+
+<p>
+If you&rsquo;re in school (college, high school, grade or Free)
+it shouldn&rsquo;t be too hard to con them into buying ,
+aome decent equipment  -  tell them they can use it for
+school accounts at night. According to <a href="http://iae-pedia.org/Robert_Albrecht">Bob Albrecht</a> of Dymax (People&rsquo;s
+Computer Company), the best school computers are from DEC and H-P:
+&ldquo;Both of these companies have made a real commitment. They have
+qualified educational staff, they&rsquo;re developing new stuff, they've got
+credibility.&rdquo; Write to:
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/David_H._Ahl">David Ahl</a>, Digital Equipment Corporation,
+  146 Main Street, Maynard, Mass. 01754
+(Ahl has authored an excellent book, 101 Basic Computer Games, $5 from DEC)
+<li><a href="http://people.forbes.com/profile/edward-r-mccracken/56103">Ed McCracken</a>, Hewlett-Packard, 11000 Wolf Rd., Cupcrtino, Ca. 95014
+</li>
+</ul>
+<p>DEC has what they call Edu Systems,
+  three families of computers ranging from
+  a single-terminal PDP-8 ($7K [$7000]; can handle up to
+  16 terminals) to the big PDP-10 ($500K). And H-P has their
+  2000-series, ranging from " the 2000E ($50K) to the 2000C
+  ($300K).
+  
+<p>
+
+Some school systems are starting miniature ARPA Nets
+ Bob Albrecht reports, "Minnesota may become the first
+state to have a statewide network where every kid
+will have access to a computer. 
+There are more than 200 schools
+and 50,000 kids already tied into the network. And Long Island 
+has a consortium with 40 schools on a PDP-10." 
+
+<p>
+Finally, there are starting to be places
+where one can step in off the street and compute, and some 
+of these have newsletters, games, etc., that they can send you.
+Write to:
+
+<ul>
+<li> Bob Albrecht,
+People's Computer Company, Box 310, Menlo Park, California 94025.
+(Publishes an outstanding newsletter on recreational
+and educational uses of computers. $4 for 5 
+issues/year.)
+
+<li> Bob Kahn,
+
+Lawrence Hall of Science,
+University of California,
+Berkeley, California 94720.
+(16 terminals available at 50 cents/hour.
+Publishes a newsletter, Kaleidoscope; 
+has some interesting games.)
+
+<li> Rusty Whitney,
+Oregon Museum of Science and Industry, 4015 
+SW Canyon Road, Portland, Oregon 97221.
+(Public access computers. Has bener software for the 
+PDP-8 than DEC has. And has new PDP-11.)
+
+<li> Bill Mayhew, The Children's Museum, Jamaica 
+Way, Boston, Massachusetts 02150. (Public access computer games.) 
+
+</ul>
+
+<p>
+If you're looking for good computer science in a college,
+the best is Carnegie-Mellon at Pittsburgh,
+then Stanford and MIT, with Utah, Cal Tech,
+and Illinois following. The college that 
+exposes more of its students to computer
+use than anyone is Dartmouth.
+
+
+<h2>
+Appendix Two:<br>
+Your Own Spacewar
+</h2>
+
+<p>
+Though no one has done it yet, Alan Kay is
+convinced a modest Spacewar could be built cheap: &ldquo;You can do motion
+with a couple of integrators. <a href="http://en.wikipedia.org/wiki/Heathkit">Heathkit</a> has this l6-integrator analogue
+computer you can build as a kit for 700 bucks or something like
+that. You have to have two layers of integrators to get an
+inverse-square law, so you should be able to get gravity and orbits with
+that one. To make spaceship outlines and explosion patterns you need
+a few bits of digital memory. Two chips worth of register file should
+do it. I think electronics stores may carry the chips. 
+
+<p>
+&ldquo;The controls for Spacewar are trivial.
+The simplest way is to go to a radio control store  -  like 
+for model airplanes  -  and get the front end
+of the radio controller, which has two sets of joysticks and the
+pots and everything else. You can use those as the inputs to the analogue 
+computer. They only cost something like thirty bucks.&rdquo; 
+Once you have the computer, your own or someone else&rsquo;s,
+you can write your own Spacewar program or start with this one of Kay&rsquo;s:
+
+<p>
+<blockquote>
+<type>
+<pre>
+<hr>
+to ship :size
+ penup, left 180, torward 2 *:size, right 90
+ forward,1 *:size, right 90
+ pendown, forward 4 *:size, right 30, forward 2 *:size
+ right 120, foward 2 *:size
+ right 30, forward 4 *:size
+ right 30, forwarg 2 *:size
+ right 120,forward 2 *:size
+ left 150, forward:size * 2 * sqrt 3
+ left 330, forward:size * 2
+ right 60, forward:size * 2
+ lefl 380, fowad:size 2 sqrt 3
+  penup, left 90, forward:size, right 90,
+ forward 2 *:size
+end to
+<hr>
+to flame :size
+  penup, left 180, forward 2 + sqrt 3, pendown
+  triangle size, forward .5*:size
+  triangle 1.5 *:size, forward .5*:size
+  triangle 2 *:size, forward .5 *:size
+  triangle 1 *:size, forward 1 *.size
+  etc....
+end to
+<hr>
+to flash
+   etc.....
+to retre
+   etc.... 
+to torp
+   etc....
+<hr>
+to spaceahip :pilot :thrust :steer :trigger
+use :numtorps :location:(x:y):speed :direction
+repeat
+  moveship
+  if :trigger and:numtorps <3
+  then create torpedo :speed :direction :location.
+  ?crash :self
+  display ship
+  pause until clock =  :time + :movelag
+end to 
+<hr>
+to moveship 
+  make :speed be :speed + (:spscale * :thrust)
+  make :direction be :direction + (:diracale * :steer)
+    rem 360
+  make :location:x be :location:x + (:lscale *:speed *
+	* cos :direction) rem 1024
+  make :locatlon:y be :location:y + (:lscale *:speed *
+	* sin :directtion) rem 1024
+end to
+<hr>
+to display ":obj
+  penup, moveto:location, turn:direction
+  create :obj:size
+  if :thruat > 0 then create flame:size
+  if :thrust < 0 thon create retro fiame:size,
+  pause until clock = :time + :framelag
+end to
+<hr>
+to ?crash :object
+   find all (create spaceship :s)
+	if :object = :s
+	  and /:object:location:x  - :s:location:x/
+	 < close
+	  and /:object:location:y  - :s:location:y/
+	 < close
+	then explode:s. explode:obj
+end to
+<hr>
+to explode:object
+  penup, moveto:object:location
+  flash
+  finish :object
+end to
+<hr>
+to torpedo :speed :direction: :location
+   use :thrust 0
+   bump :numtorps
+   moveship
+if not (0<.location:x < 1024 and 0 < .location:y < 1024)
+then debump :numtorps, finish :self
+?crash :self
+display :torp
+end to
+<hr>
+to start
+repeat ask "how many will be playing?" times
+  create spaceship ask "pilot's name?"
+  stick.(make :sn be ask "stick number?").y
+  stick .:sn.x
+  stick :sn:but
+end
+repeat
+  if (make :char be ask) = "s" then done
+  find all(create spaceship :x)
+  start :x
+end to
+<hr>
+*start
+  how many will be playing?
+*2
+  pilot's name?
+*Jimmy
+  stick number?
+*2
+  pilot's name
+*Bill
+  stick number?
+*3
+</blockquote>
+</pre>
+</type>
+<P><HR></P>
+
+<P><A HREF="../index.html">Back to SpaceWar</A></P>
+
+<P><A HREF="../../index.html">Back to Sternlandia</A></P>
+</body>
+</html>
