@@ -1,0 +1,124 @@
+body {
+  /* Background color of aged newsprint,
+     vis. the pages of Rolling Stone circa 1972 */
+  background-color: #eedbbf;
+  font-family: serif;
+}
+header {
+  font-weight: bold;
+  position: relative;
+  width: 100%;
+  height: 1em;
+  margin: 0.2em 0;
+}
+.pageno {
+  position: absolute;
+  left: 0;
+}
+.issueno {
+  position: absolute;
+  right: 0;
+}
+main {
+  display: block;
+  border: 3px double black;
+}
+p {
+  text-indent: 1em;
+  margin: auto 40px;
+}
+.runin {
+  font-variant: small-caps;
+}
+.intro {
+  text-indent: 0;
+}
+.intro::first-letter {
+  float: left;
+  font-size: 7em;
+  font-family: Bernard MT Condensed, Bernhard BdCn BT,
+    Bernhard Bold Condensed, Bernhard Std Bold Condensed,
+    serif;
+  line-height: 100%;
+  margin: -0.1em 0 -0.2em;
+}
+.conout {
+  text-indent: 0;
+  padding-left: 1em;
+}
+.conout + p {
+  text-indent: 0;
+}
+.conout code, .smallcaps {
+  font-style: normal;
+  font-weight: normal;
+  font-family: serif;
+  font-variant: small-caps;
+}
+.program {
+  white-space: pre-wrap;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  margin: 20px 40px;
+}
+h1 {
+  font-size: 4em;
+  margin: 0;
+}
+h1, h2 {
+  text-align: center;
+  font-family: Bernard MT Condensed, Bernhard BdCn BT,
+    Bernhard Bold Condensed, Bernhard Std Bold Condensed,
+    serif;
+}
+h3 {
+  text-align: center;
+}
+.subtitle {
+  font-family: inherit;
+}
+.chalkboard {
+  /* The handwriting was strangely precise. */
+  white-space: pre;
+  font-family: SarcasticRobot Regular, monospace;
+  color: white;
+  background-color: black;
+  padding: 0 1.5em;
+  margin: 1em 40px;
+}
+figure, blockquote, ol, ul {
+  margin: auto 40px;
+}
+figure blockquote {
+  text-indent: 1em;
+  margin: 0;
+}
+.quote figcaption {
+  text-align: right;
+}
+ol {
+  counter-reset: list;
+  padding: 0 30px;
+}
+ol li {
+  list-style: none;
+}
+ol li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
+ul li {
+  text-indent: 1em;
+}
+.right {
+  float: right;
+  vertical-align: top;
+}
+.left {
+  float: left;
+  vertical-align: top;
+}
