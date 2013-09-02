@@ -32,9 +32,24 @@ p, figure blockquote {
 }
 article {
   -webkit-column-width: 15em;
+  -moz-column-width: 15em;
+  -ms-column-width: 15em;
+  column-width: 15em;
   -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  -ms-column-gap: 2em;
+  column-gap: 2em;
   -webkit-hyphens: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-column-rule: 1px solid black;
+  -moz-column-rule: 1px solid black;
+  -ms-column-rule: 1px solid black;
+  column-rule: 1px solid black;
+  hyphens: auto;
   text-align: justify;
+  /*margin: 20px 0;*/
 }
 .runin {
   font-variant: small-caps;
