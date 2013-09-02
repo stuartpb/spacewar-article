@@ -22,13 +22,19 @@ header {
 main {
   display: block;
   border: 3px double black;
-  padding: 0 30px;
+  padding: 2em;
 }
 p, figure, blockquote, ol, ul {
   margin: 0;
 }
 p, figure blockquote {
   text-indent: 1em;
+}
+article {
+  -webkit-column-width: 15em;
+  -webkit-column-gap: 2em;
+  -webkit-hyphens: auto;
+  text-align: justify;
 }
 .runin {
   font-variant: small-caps;
@@ -77,12 +83,17 @@ h1, h2 {
 h3 {
   text-align: center;
 }
+main a, header a {
+  color: inherit;
+  background-color: #ee0;
+  text-decoration: inherit;
+}
 .subtitle {
   font-family: inherit;
 }
 .chalkboard {
   /* The handwriting was strangely precise. */
-  white-space: pre;
+  white-space: pre-wrap;
   font-family: SarcasticRobot Regular, monospace;
   color: white;
   background-color: black;
@@ -95,10 +106,11 @@ h3 {
 }
 ol {
   counter-reset: list;
-  padding: 0 30px;
+  padding: 0 1em;
 }
 ol li {
   list-style: none;
+  text-indent: 1em;
 }
 ol li:before {
   content: counter(list) ") ";
@@ -119,3 +131,4 @@ ul li {
   float: left;
   vertical-align: top;
 }
+/*TODO: Media rule for <475px wide*/
