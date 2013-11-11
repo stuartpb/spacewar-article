@@ -90,6 +90,10 @@ main a, header a {
   background-color: #ee0;
   text-decoration: inherit;
 }
+main a:hover, header a:hover {
+  color: blue;
+  text-decoration: underline;
+}
 .subtitle {
   font-family: inherit;
 }
