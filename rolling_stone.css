@@ -3,13 +3,15 @@ body {
      vis. the pages of Rolling Stone circa 1972 */
   background-color: #eedbbf;
   font-family: serif;
+  max-width: 800px;
+  margin: auto;
 }
 header {
   font-weight: bold;
   position: relative;
-  width: 100%;
+  width: auto;
   height: 1em;
-  margin: 0.2em 0;
+  margin: 0.2em 8px;
 }
 .pageno {
   position: absolute;
@@ -23,6 +25,7 @@ main {
   display: block;
   border: 3px double black;
   padding: 2em;
+  margin: 0 8px;
 }
 p, figure, blockquote, ol, ul {
   margin: 0;
@@ -31,22 +34,6 @@ p, figure blockquote {
   text-indent: 1em;
 }
 article {
-  -webkit-column-width: 15em;
-  -moz-column-width: 15em;
-  -ms-column-width: 15em;
-  column-width: 15em;
-  -webkit-column-gap: 2em;
-  -moz-column-gap: 2em;
-  -ms-column-gap: 2em;
-  column-gap: 2em;
-  -webkit-hyphens: auto;
-  -epub-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  -webkit-column-rule: 1px solid black;
-  -moz-column-rule: 1px solid black;
-  -ms-column-rule: 1px solid black;
-  column-rule: 1px solid black;
   hyphens: auto;
   text-align: justify;
   /*margin: 20px 0;*/
@@ -146,4 +133,26 @@ ul li {
   float: left;
   vertical-align: top;
 }
-/*TODO: Media rule for <475px wide*/
+
+/* An aborted experiment to emulate the multi-column look of the original
+  Rolling Stone article. Mix in with the "page" class to reduce the amount of
+  scrolling required. */
+
+.columnal {
+  -webkit-column-width: 15em;
+  -moz-column-width: 15em;
+  -ms-column-width: 15em;
+  column-width: 15em;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  -ms-column-gap: 2em;
+  column-gap: 2em;
+  -webkit-hyphens: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-column-rule: 1px solid black;
+  -moz-column-rule: 1px solid black;
+  -ms-column-rule: 1px solid black;
+  column-rule: 1px solid black;
+}
