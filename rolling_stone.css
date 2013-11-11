@@ -138,6 +138,15 @@ ul li {
   vertical-align: top;
 }
 
+@media screen and (max-width: 450px) {
+  header {
+    font-size: 8pt;
+  }
+  h1 {
+    font-size: 32pt;
+  }
+}
+
 /* An aborted experiment to emulate the multi-column look of the original
   Rolling Stone article. Mix in with the "page" class to reduce the amount of
   scrolling required. */
