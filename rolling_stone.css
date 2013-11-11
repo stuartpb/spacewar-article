@@ -97,8 +97,14 @@ main a:hover, header a:hover {
 .subtitle {
   font-family: inherit;
 }
+
+/* Try to import a font for the strangely-precise handwriting / sloppy computer
+   lettering at the top of the article*/
+@font-face {
+  font-family: SarcasticRobot Regular;
+  src: url('SarcasticRobot.otf');
+}
 .chalkboard {
-  /* The handwriting was strangely precise. */
   white-space: pre-wrap;
   font-family: SarcasticRobot Regular, monospace;
   color: white;
