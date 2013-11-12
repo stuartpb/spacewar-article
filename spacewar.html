@@ -190,7 +190,7 @@ attack.
 
 <p>
 A game is over when only one or no survivors are displayed. The screen then
-blanks out, counts down 5-4-3-2-1,  and redisplays a new battle with ships at
+blanks out, counts down 5-4-3-2-1, and redisplays a new battle with ships at
 new random positions equidistant from the sun and showing scores accumulative
 from previous games. A spaceship that is killed early in a battle will
 reincarnate after 16 seconds and rejoin the fray, so that a single battle may
@@ -432,14 +432,14 @@ space fleet maneuvers."
   Beams, rods and lances of energy flamed and flared; planes and pencils cut,
   slashed and stabbed; defensive screens glowed redly or flashed suddenly into
   intensely brilliant, coruscating incandescence. Crimson opacity struggled
-  sullenly  against violet curtains of annihilation. Material projectiles and
+  sullenly against violet curtains of annihilation. Material projectiles and
   torpedoes were launched under full-beam control; only to be exploded
   harmlessly in mid-space, to be blasted into nothingness or to disappear
   innocuously against impenetrable polycyclic screens."
   </blockquote>
   <figcaption>&mdash;<cite>
-        <a href="http://en.wikipedia.org/wiki/Triplanetary_(novel)">
-          Triplanetary</a></cite> (1948)
+    <a href="http://en.wikipedia.org/wiki/Triplanetary_(novel)">
+      Triplanetary</a></cite> (1948)
   </figcaption>
 </figure>
 
@@ -527,8 +527,8 @@ you could use but it wasn't something that you wanted to use."
   them. She returned."
   </blockquote>
   <figcaption>&mdash;<cite>
-        <a href="http://en.wikipedia.org/wiki/Children_of_the_Lens">
-        Children of the Lens</a></cite> (1954)
+    <a href="http://en.wikipedia.org/wiki/Children_of_the_Lens">
+      Children of the Lens</a></cite> (1954)
   </figcaption>
 </figure>
 
@@ -617,7 +617,7 @@ mystics.
 All right, one sample: the vision helmet designed by Ivan Sutherland at
 Harvard. The helmet covers the front of your face with special goggles that are
 tiny computer-driven TV screens. They present you with a visual space in which
-you can move.  The computer monitors where your head moves and alters what you
+you can move. The computer monitors where your head moves and alters what you
 see accordingly. In the projected reality you can look around, you can look
 behind you, you can move toward things and through them. You can furthermore
 change parameters. Your head goes forward a foot and in the vision you soar a
@@ -726,7 +726,7 @@ solve alone.
 
 <p>
 At present some 20 major computer centers are linked on the two-year-old ARPA
-Net. Traffic on the Net has been very slow,  due to delays and difficulties of
+Net. Traffic on the Net has been very slow, due to delays and difficulties of
 translation between different computers and divergent projects. Use has
 recently begun to increase as researchers travel from center to center and want
 to keep in touch with home base, and as more tantalizing, sharable resources
@@ -860,7 +860,7 @@ with an addressed envelope.
 
 <p>
 That's for grownups. Alan Kay is more interested in us kids. He repudiates the
-manipulative arrogance of "Computer-Aided Instruction"  and serves the dictum
+manipulative arrogance of "Computer-Aided Instruction" and serves the dictum
 of Seymour Papert, "Should the computer program the kid or should the kid
 program the computer?"
 </p>
@@ -1072,7 +1072,7 @@ Another scheme in the works involves the people around Steve Beck at the
 National Center for Experiments in Television a few blocks away. Steve has
 built the world's first real-time video synthesizer&mdash;the video equivalent of
 the Moogs, Buchlas, and Arps of music synthesis. It's a natural to link up with
-a computer.  The current plan is for Steve and his equipment to move into the
+a computer. The current plan is for Steve and his equipment to move into the
 basement below Resource One, which should liven up the scene&mdash;Pam's gang is
 short on true hacker time-wasting frivolity; they're warm, but rather stodgier
 than some of the Government-funded folks. Maybe the video link-up will give us
@@ -1314,20 +1314,20 @@ Kay's:
   etc. .&nbsp;.&nbsp;.
 <i>end to</i>
 <i>to</i> flash
-   etc. .&nbsp;.&nbsp;.
+  etc. .&nbsp;.&nbsp;.
 <i>to</i> retro
-   etc. .&nbsp;.&nbsp;.
+  etc. .&nbsp;.&nbsp;.
 <i>to</i> torp
-   etc. .&nbsp;.&nbsp;.
+  etc. .&nbsp;.&nbsp;.
 <i>to</i> spaceship :pilot :thrust :steer :trigger
 <i>use</i> :numtorps :location (:x :y) :speed :direction
 <i>repeat</i>
   moveship
-  <i>if</i> :trigger <i>and</i> :numtorps < 3
+  <i>if</i> :trigger <i>and</i> :numtorps &lt; 3
   <i>then</i> create torpedo :speed :direction :location .
   ?crash :self
   display ship
-  pause until clock =  :time + :movelag
+  pause until clock = :time + :movelag
 <i>end to</i>
 <i>to</i> moveship
   <i>make</i> :speed <i>be</i> :speed + (:spscale * :thrust)
@@ -1341,17 +1341,17 @@ Kay's:
 <i>to</i> display ":obj
   penup, moveto :location, turn :direction
   create :obj :size
-  <i>if</i> :thrust > 0 <i>then</i> create flame :size
-  <i>if</i> :thrust < 0 <i>then</i> create retro flame :size,
+  <i>if</i> :thrust &gt; 0 <i>then</i> create flame :size
+  <i>if</i> :thrust &lt; 0 <i>then</i> create retro flame :size,
   pause until clock = :time + :framelag
 <i>end to</i>
 <i>to</i> ?crash :object
   find all (create spaceship :s)
   <i>if</i> :object = :s
     <i>and</i> /:object:location:x &mdash; :s:location:x/
-      < close
+      &lt; close
     <i>and</i> /:object:location:y &mdash; :s:location:y/
-      < close
+      &lt; close
   <i>then</i> explode :s, explode :obj
 <i>end to</i>
 <i>to</i> explode :object
@@ -1363,8 +1363,8 @@ Kay's:
   <i>use</i> :thrust 0
   bump :numtorps
   moveship
-  <i>if not</i> (0 < .location:x < 1024 <i>and</i> 0 < .location:y
-    < 1024)
+  <i>if not</i> (0 &lt; .location:x &lt; 1024 <i>and</i> 0 &lt; .location:y
+    &lt; 1024)
   <i>then</i> debump :numtorps, finish :self
   ?crash :self
   display :torp
