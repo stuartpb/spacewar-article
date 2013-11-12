@@ -1,65 +1,28 @@
-# PRIMER PRIME
-## Computers as I understand them
+# SPACEWAR
 
-by Stuart P. Bentley
+This is my own HTML reconstruction of Stewart Brand's article on Spacewar,
+as published in Rolling Stone on December 7, 1972. It's a fascinating article
+that conveys a ton, not just about the game, but about the general culture of
+the early-seventies computer labs, back when the West was wild. It's also
+immensely prescient: in three paragraphs in a row, it declares in no uncertain
+terms that widespread Internet access would spell the end of record stores and
+the newspaper industry, while leading to an all-new industry for online gaming.
+This is in an article that was written nearly two decades before the first web
+site.
 
-## Foreword
+I initially discovered the article in the summer of 2011 by following a link
+from Wikiquote to [Michael Stern's transcription of the article][stern] on his
+personal site. However, it was essentially a straight copy from a shaky OCR
+run into a hodgepodge of late-nineties HTML (not a `</p>` in sight), and later
+parts of the article got sloppier to the point of being unreadable (with
+several paragraphs just outright going missing).
 
-I'm not sure where I learned the stuff I'm going to write here. I think it
-started somewhere around Wikipedia, then spiralled off into perusing the Jargon
-File, sprinkled with some loose Googling into long-forgotten 1993 home pages
-and archived posts to mailing lists. Raymond Chen's blog,
-[The Old New Thing][], contributed a lot to my understanding of the history of
-Windows.
+[stern]: http://www.wheels.org/spacewar/stone/rolling_stone.html
 
-[The Old New Thing]: http://blogs.msdn.com/b/oldnewthing/
-
-There's no real authority to any of this: I wasn't around for pretty much all
-of the stuff I'm going to write about. Most of this is me half-remembering
-things I read on the Internet somewhere and filling in the gaps with
-over-simplistic interpretations and assumptions that fit the narrative I've
-arbitrarily constructed.
-
-Since I'm writing this as a text document on GitHub, if you read this and
-notice that I've got something rather wrong, you can suggest an edit by
-submitting a GitHub pull request, or just email me at:
-
-<stuart@testtrack4.com>
-
-This document is formatted as Markdown with footnote syntax.
-
-## Introduction
-
-Computers are more of a story than a science. Programming is less about
-understanding complex mathematical theores than it is about knowing why people
-made the weird decisions that shaped every interaction we have with computers
-to this day.
-
-## Chapter 1: Everything Before The Sixties
-
-The first computers ever invented are generally agreed to be Charles Babbage's
-Difference Engine and Analytical Engine, mechanical devices designed around the
-1840s. Lady Ada Lovelace (daughter of Lord Byron) wrote a sequence of
-operations that could be performed using the Analytical Engine, that would be
-the first computer program ever.
-
-However, while Babbage's designs for the machines were complete by the time of
-Babbage's death in 1871, a working Difference Engine wouldn't be built until
-nearly a century later, and a completed, working Analytical Engine, as of June
-2013, has never been built. As a result, the widespread influence of these
-particular machines that Babbage envisioned never materialized: when the first
-computers as we think of them were built around the time of World War II, their
-builders did it from scratch, with little to no awareness of how the Analytical
-Engine would have worked.
-
-Here are the lessons of this story that are relevant today:
-
-1. The most detailed plans will never be more than a historical footnote if you
-   can't carry them out.
-2. Just because something's possible with current technology, doesn't mean you
-   should *try* it with current technology.
-3. Female programmers were here first.
-
-The two most influential developments of the nineteenth century on modern
-computers would be much more pedestrian: the typewriter and the telegraph.
-
+A couple years later, I found myself subscribed to Rolling Stone (a side effect
+of becoming a member at Seattle's EMP Museum), which includes an all-access
+account to the complete Rolling Stone archives online. I looked up the article
+in the archive and set forth to reproduce the entire text of it faithfully to
+its original presentation, using my knowledge of good HTML5 and CSS practice to
+split the difference between accuracy and extensibility. (I like to think I've
+reached that.)
