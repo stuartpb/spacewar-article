@@ -98,15 +98,9 @@ main a:hover, header a:hover {
   font-family: inherit;
 }
 
-/* Try to import a font for the strangely-precise handwriting / sloppy computer
-   lettering at the top of the article*/
-@font-face {
-  font-family: SarcasticRobot Regular;
-  src: url('SarcasticRobot.otf');
-}
-.chalkboard {
+.announcement {
   white-space: pre-wrap;
-  font-family: SarcasticRobot Regular, monospace;
+  font-family: monospace;
   color: white;
   background-color: black;
   padding: 0 1.5em;
