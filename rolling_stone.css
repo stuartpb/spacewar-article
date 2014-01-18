@@ -82,9 +82,21 @@ h1, h2 {
     Bernhard Bold Condensed, Bernhard Std Bold Condensed,
     serif;
 }
-h3 {
+.subtitle, h3 {
   text-align: center;
+  font-family: Kabel Light, Kabel Light Pro,
+    sans-serif;
+    font-weight: normal;
 }
+
+address {
+  font-style: normal;
+}
+
+aside {
+  font-style: italic;
+}
+
 main a, header a {
   color: inherit;
   background-color: #ee0;
@@ -93,9 +105,6 @@ main a, header a {
 main a:hover, header a:hover {
   color: blue;
   text-decoration: underline;
-}
-.subtitle {
-  font-family: inherit;
 }
 
 .announcement {
