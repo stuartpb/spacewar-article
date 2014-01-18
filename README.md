@@ -26,3 +26,14 @@ in the archive and set forth to reproduce the entire text of it faithfully to
 its original presentation, using my knowledge of good HTML5 and CSS practice to
 split the difference between accuracy and extensibility. (I like to think I've
 reached that.)
+
+In the spirit of the heady pre-Google days of the early web which this article
+calls forward to (and that the original transcription I sourced dated to),
+I've added hyperlinks to many of the subjects referenced in the article. This
+invites the reader to dive a little deeper into the context of the things
+described in the article where doing a further web search for the topic might
+not have occurred (I didn't even know Free Schools were a thing in the early
+70s until I found that Wikipedia article). Where relevant, links point to
+entries in the similarly-toned Jargon File, as originally compiled across sites
+contemporaneously with this article and "maintained" by Eric S. Raymond. When
+the Jargon File fails at relevance or context, I link to Wikipedia.
